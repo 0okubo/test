@@ -1,0 +1,132 @@
+*, *: before, *: after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+div#main {
+  animation: fadeIn 2s ease 0s normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+div#namearea {
+  height: 120px;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+h1#Title {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+  border-top: 10px solid #4c4c4c;
+}
+
+p#poyashimi {
+  font-size: 15px;
+  font-family: 'Lobster Two', cursive;
+  color: #4c4c4c;
+  text-align: center;
+}
+
+svg.maru {
+  filter: drop-shadow(0 10px 10px #818181);
+  padding: 10px;
+  transition: 0.2s;
+}
+
+svg.maru:hover {
+  transform: scale(1.05,1.05);
+}
+
+svg.maru:hover circle {
+  fill: #666666;
+}
+
+div.name {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 130px;
+}
+
+div#photoCategory {
+  height: 90px;
+}
+
+ul.photoCategoryButton {
+  width: 522px; /* 521px以下にするとボタンポイント時に段下がり */
+  padding: 20px;
+  margin: 0 auto;
+}
+
+ul.photoCategoryButton li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  filter: drop-shadow(0 10px 10px #818181);
+}
+
+ul.photoCategoryButton li a{
+  color: #ffffff;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+　border: 1px solid #4c4c4c;
+  border-radius: 5px;
+  background: #4c4c4c;
+  width: 80px;
+  height: 20px;
+  padding: 10px; /*liではなくaにpaddingを入れる事でpadding領域をリンク化*/
+}
+
+.CategoryButtonLogo {
+  width: 22px;
+  height: 22px;
+  background: #FFFFFF;
+}
+
+div#topPhoto {
+  width: 500px;
+  height: 280px;
+  background: #4c4c4c;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  filter: drop-shadow(0 10px 10px #818181);
+  font-family: 'Lobster Two', cursive;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 250px;
+}
+
+.categoryPhoto {
+  display: block;
+  width: 500px;
+  height: 280px;
+  border-radius: 5px;
+  margin: 0 auto;
+  filter: drop-shadow(0 10px 10px #818181);
+}
+

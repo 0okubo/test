@@ -1,0 +1,16 @@
+Fate /spell code [Unlimited Browse Works]
+
+<title>Fate &frasl; spell code &#91;Unlimited Browse Works&#93;</title>
+
+体はHTMLで出来ている。
+血潮はcssで、心はjs。
+幾数のブラウザに映えて美麗。
+ただの一度の残業もなく、
+ただの一度の休暇もなし。
+担い手はここに独り、
+画面の前でキーを打つ。
+ならば我が生涯に意味は不要ず。
+この体は、
+無限のコードで出来ていた。
+
+<meta name="description" content="体はHTMLで出来ている。血潮はcssで、心はjs。幾数のブラウザに映えて美麗。ただの一度の残業もなく、ただの一度の休暇もなし。担い手はここに独り、画面の前でキーを打つ。ならば我が生涯に意味は不要ず。この体は、無限のコードで出来ていた。">

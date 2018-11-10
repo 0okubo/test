@@ -1,0 +1,35 @@
+h1#Title {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+  border-top: 10px solid #4c4c4c;
+}
+
+p#poyashimi {
+  font-size: 15px;
+  font-family: 'Lobster Two', cursive;
+  color: #4c4c4c;
+  text-align: center;
+}
+
+svg.maru {
+  filter: drop-shadow(0 10px 10px #818181);
+  padding: 10px; 
+}
+
+svg.maru:hover {
+  height: 110px;
+  width: 110px;
+}
+
+div.name {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 130px;
+}

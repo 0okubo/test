@@ -17,7 +17,7 @@ function CB1R() { // 1_文字に戻し
   document.getElementById('CBa1').style.height = '20px';
   document.getElementById('CBa1').style.backgroundColor = '#4c4c4c'
   document.getElementById('CBa1').style.borderStyle = '';
-  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\">Photo!</div>';
+  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\"><img src=\"./image/Sake.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ramen.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryouri.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryokou.jpg\" class=\"categoryPhoto\"><img src=\"./image/Sonota.jpg\" class=\"categoryPhoto\"><div>';
 };
 
 /* photoCategoryButton 2 Ramen */
@@ -39,7 +39,7 @@ function CB2R() { // 2_文字に戻し
   document.getElementById('CBa2').style.height = '20px';
   document.getElementById('CBa2').style.backgroundColor = '#4c4c4c'
   document.getElementById('CBa2').style.borderStyle = '';
-  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\">Photo!</div>';
+  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\"><img src=\"./image/Sake.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ramen.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryouri.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryokou.jpg\" class=\"categoryPhoto\"><img src=\"./image/Sonota.jpg\" class=\"categoryPhoto\"><div>';
 };
 
 /* photoCategoryButton 3 Ryouri */
@@ -61,7 +61,7 @@ function CB3R() { // 3_文字に戻し
   document.getElementById('CBa3').style.height = '20px';
   document.getElementById('CBa3').style.backgroundColor = '#4c4c4c'
   document.getElementById('CBa3').style.borderStyle = '';
-  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\">Photo!</div>';
+  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\"><img src=\"./image/Sake.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ramen.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryouri.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryokou.jpg\" class=\"categoryPhoto\"><img src=\"./image/Sonota.jpg\" class=\"categoryPhoto\"><div>';
 };
 
 /* photoCategoryButton 4 Ryokou */
@@ -83,7 +83,7 @@ function CB4R() { // 4_文字に戻し
   document.getElementById('CBa4').style.height = '20px';
   document.getElementById('CBa4').style.backgroundColor = '#4c4c4c'
   document.getElementById('CBa4').style.borderStyle = '';
-  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\">Photo!</div>';
+  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\"><img src=\"./image/Sake.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ramen.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryouri.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryokou.jpg\" class=\"categoryPhoto\"><img src=\"./image/Sonota.jpg\" class=\"categoryPhoto\"><div>';
 };
 
 /* photoCategoryButton 5 Sonota */
@@ -105,5 +105,5 @@ function CB5R() { // 5_文字に戻し
   document.getElementById('CBa1').style.height = '20px';
   document.getElementById('CBa5').style.backgroundColor = '#4c4c4c'
   document.getElementById('CBa5').style.borderStyle = '';
-  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\">Photo!</div>';
+  document.getElementById('topPhoto').innerHTML = '<div id=\"topPhoto\"><img src=\"./image/Sake.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ramen.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryouri.jpg\" class=\"categoryPhoto\"><img src=\"./image/Ryokou.jpg\" class=\"categoryPhoto\"><img src=\"./image/Sonota.jpg\" class=\"categoryPhoto\"><div>';
 };
